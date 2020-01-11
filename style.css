@@ -1,0 +1,56 @@
+body {
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.25rem;
+    margin: 0;
+}
+header {
+    background-color: yellow;
+    min-height: 100vh;
+}
+nav {
+    background-color: rgb(100, 8, 109, 438);
+    width: 100%;
+    height: 80px;
+    position: fixed;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+nav a {
+    text-decoration: none;
+    color: white;
+    text-emphasis: style;
+}
+nav li {
+    display: inline-block;
+    padding: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+header main {
+    padding-top: 80px;
+    text-align: center;
+}
+header img {
+    width: 30%;
+}
+.about-me {
+    padding: 30px 60px;
+    padding-top: 80px;
+    /* padding: first value is top and bottom, second value is left and right */
+}
+.projects {
+    padding: 30px 60px;
+    padding-top: 80px;
+}
+.projects img {
+    width: 30%;
+    padding: 30px;
+    padding-left: 0px;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
